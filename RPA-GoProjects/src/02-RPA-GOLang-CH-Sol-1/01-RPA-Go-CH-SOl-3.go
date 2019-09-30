@@ -68,7 +68,7 @@ var InputStrStruct ChStr
  const Semester  = 3
 
 // Field Seperator 
-// Problem Statement : "There is always "a space" after the Course Number and before Semester+Year
+// Assumption : "There is always "a space" after the Course Number and before Semester+Year
 // (Comment : When input data entry is "form based", the "Field Seperator" could ideally be a non-keyboard 
 //            character, inserted by mobile/web client code. Can be used to increase parsing concurrency, accuracy. 
 //            better error handling etc. e.g. when parsing input string "CS 2018 Fall", Is 2018 a year or a course? 
